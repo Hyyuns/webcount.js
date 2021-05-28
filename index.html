@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/9951d4ec27.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+</head>
+<body>
+    <section class="stat" id="stats">
+        <div class="content-box">
+            <br><br>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3">
+                      <div class="stat-items">
+                        <i class="fa fa-users"></i>
+                          <h2><span class="counter text-center">50</span> <span>+</span>
+                          </h2>
+                          <p>Unique players ever joined</p>
+                      </div>
+                   </div>
+                   <div class="col-md-3">
+                    <div class="stat-items">
+                        <i class="fa fa-cloud"></i>
+                        <h2><span class="counter text-center">99</span> <span>%</span>
+                        </h2>
+                        <p>Uptime</p>
+                    </div>
+                 </div>
+                 <div class="col-md-3">
+                    <div class="stat-items">
+                        <i class="fa fa-bars"></i>
+                        <h2><span class="counter text-center">10</span> <span>+</span>
+                        </h2>
+                        <p>players join at the same time</p>
+                    </div>
+                 </div>
+                 <div class="col-md-3">
+                    <div class="stat-items">
+                        <i class="fa fa-heart"></i>
+                        <h2><span class="counter text-center">5</span> <span>+</span>
+                        </h2>
+                        <p>Staff</p>
+                    </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="jquery.counterup.min.js"></script>
+    <script src="jquery.waypoints.min"></script>
+    <script>
+        jQuery(document).ready(function(){
+            $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+        });
+    </script>
+</body>
+</html>

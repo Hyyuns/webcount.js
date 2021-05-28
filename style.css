@@ -1,0 +1,25 @@
+.stat {
+    background: #111;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+    background-attachment: fixed;
+    margin-top: 209px;
+}
+
+.stat i {
+    font-size: 50px;
+    text-align: center;
+}
+
+.stat-items h2 {
+    font-size: 42px;
+    color: darkorange;
+    text-align: center;
+}
+
+.stat p {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
